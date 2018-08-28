@@ -10,5 +10,18 @@ void main() {
 	By considering the terms in the Fibonacci sequence whose
 	values do not exceed four million, find the sum of the even-valued terms.
 	 */
-	
+	long prev = 1;
+	long curr = 1;
+	long tmp_ = 0;
+	long sum = 0;
+	long maxVal = 4000000;
+	while(curr < maxVal){
+		tmp_ = curr;
+		curr += prev;
+		prev = tmp_;
+		if (curr % 2 == 0) {
+			sum += curr;
+		}
+	}
+	printf("Sum: %d", sum);
 }

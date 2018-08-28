@@ -116,7 +116,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Euler.c" />
-    <ClCompile Include="ProjectEuler2.c" />
+    <ClCompile Include="p001.c" />
+    <ClCompile Include="p002.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

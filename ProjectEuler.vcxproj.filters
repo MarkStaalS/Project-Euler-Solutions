@@ -18,7 +18,10 @@
     <ClCompile Include="Euler.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ProjectEuler2.c">
+    <ClCompile Include="p001.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p002.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
