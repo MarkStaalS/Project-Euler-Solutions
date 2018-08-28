@@ -1,0 +1,4 @@
+﻿  ProjectEuler2.c
+c:\users\mark\source\repos\projecteuler\projecteuler\projecteuler2.c(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+ProjectEuler2.obj : error LNK2005: _main already defined in Euler.obj
+C:\Users\mark\source\repos\ProjectEuler\Debug\ProjectEuler.exe : fatal error LNK1169: one or more multiply defined symbols found
